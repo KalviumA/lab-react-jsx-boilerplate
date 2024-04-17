@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.images{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:20px;
+}
+.images div{
+  width: 100%;
+
+  img{
+    width: 100%;
+  }
+}
